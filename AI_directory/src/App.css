@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.nav{
+    background-color: #98FB98;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        padding-bottom: 5%;
+        border-bottom-right-radius: 10%;
+    
+
+}
+
+.nav h2, h4{
+    margin: 0;
+}
+
+
+
+.nav img{
+    width: 5%;
+}
+
+.body{
+    background-color: white;
+}
+
+form{
+    margin-top: 5%;
+    text-align: center;
+}
+
+form input{
+    padding: 15px;
+    font-size: 14px;
+    background-color: #333333;
+    color:white
+}
+
+
+
+.dropdown{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+hr{
+    color: white;
+    width:80%;
+    opacity: 0.5;
+}
+
+select{
+        width: 200px;
+        padding: 8px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+        color: #333;
+        margin-right: 10px;
+}
+
+.resources{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: black;
+    margin-bottom: 5%;
+}
+
+.resource{
+   
+    text-align: center;
+    flex-basis: 20%;
+    margin: 2%;
+    padding: 5px;
+    
+}
+
+
+.resource img{
+    width: 100%;
+    
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.cat{
+    background-color: #E5F9E0;
+    display: inline-block;
+        padding: 10px 20px;
+        color: #333333;
+        text-decoration: none;
+        border-radius: 4px;
+        border: 1px solid #333333;
+        font-weight: bold;
+        cursor: pointer;
+        
+}
+
+.price{
+    background-color: rgb(232, 16, 192);
+        display: inline-block;
+        padding: 10px 20px;
+        color: #333333;
+        text-decoration: none;
+        border-radius: 4px;
+        border: 1px solid #333333;
+        font-weight: bold;
+        cursor: pointer;
+}
+
+footer{
+    color: black;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 720px) {
+    .nav{
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        font-size: 14px;
+    }
+
+    .resources{
+        display: block;
+    }
+}
+
+@media screen and (max-width:720px){
+form{
+    margin-top: 5%;
+}
+ 
+.dropdown {
+    display: block;
+}
+select{
+    margin-bottom: 5%;
+}
+
+.resource{
+    flex-basis: 40%;
+    margin: 10px;
+}
+}
